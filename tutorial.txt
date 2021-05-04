@@ -1,0 +1,29 @@
+Iae Lucas, pra rodar o site a primeira coisa que tu precisa fazer eh uma virtualenv.. 
+pode usar conda, virtalenv, mkenv ou qualquer outro tipo da tua preferencia,
+
+Abre o terminal na pasta do programa, cmd, power shell, terminal do linux nao importa
+Se certifica que ta na pasta certa..
+Qualquer coisa coloca essa pasta na area de trabalho, no terminal cd desktop/django_ecommerce
+
+No terminal depois da env criada digita: pip install -r requirements.txt
+
+No terminal python manage.py makemigrations
+
+No terminal python manage.py migrate
+
+No terminal python manage.py runserver
+
+No navegador 127.0.0.1:8000
+......
+
+Ctrl + c para parar o servidor 
+
+para abrir o editor de codigo no terminal code . --> nao esquece o ponto isso eh importante
+vai de usar vs code pq eh melhor que qualquer outro mas nao importa.. sublime, pycharm, eclipce, bloco de notas.. enfim
+
+cuidado com as tags DTL todas elas tem mais ou menos o mesmo estilo {%  %} para parametros {{ }} para variaveis ou querysets
+tenta entender pra nao quebrar a front...
+
+qualquer duvida me manda menssagem quando acabar cria um repositorio publico no github e me notifica
+
+no mais boa sorte
